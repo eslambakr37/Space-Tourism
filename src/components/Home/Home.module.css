@@ -1,0 +1,165 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 190px 30px 120px;
+}
+
+@media screen and (min-width:1367px) {
+    .content {
+        padding: 288px 30px 131px;
+    }
+}
+
+.text {
+    display: inline-flex;
+    padding-right: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    width: 450px;
+}
+
+.text h1 {
+    margin: 0px;
+}
+
+.text p {
+    color: #D0D6F9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.circle {
+    width: 274px;
+    height: 274px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    border: none;
+}
+
+.circle::before {
+    content: '';
+    position: absolute;
+    width: 274px;
+    height: 274px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    opacity: 0.1036;
+    background: #FFF;
+    transition: 0.5s;
+}
+
+.circle:hover::before {
+    width: 450px;
+    height: 450px;
+}
+
+.circle h4 {
+    color: #0B0D17;
+    letter-spacing: 2px;
+}
+
+
+@media screen and (max-width:768px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 103px 30px 120px;
+        gap: 156px;
+    }
+
+    .text {
+        display: flex;
+        padding-right: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+        width: 450px;
+    }
+
+    .circle {
+        width: 242px;
+        height: 242px;
+        flex-shrink: 0;
+    }
+
+    .circle::before {
+        display: none;
+    }
+
+    .circle h4 {
+        font-weight: 400;
+    }
+
+    .text h1 {
+        line-height: 150px;
+    }
+
+    .text p {
+        line-height: 32px;
+        font-size: 16px;
+        line-height: 28px;
+        width: 444px;
+    }
+
+    .text h5 {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 3.375px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .content {
+        padding: 52px 30px;
+        gap: 85px;
+    }
+
+    .text {
+        gap: 16px;
+        width: 327px;
+    }
+
+    .text h5 {
+        font-size: 16px;
+        letter-spacing: 2.7px;
+    }
+
+    .text h1 {
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    .text p {
+        font-size: 15px;
+        line-height: 25px;
+        width: 327px;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .circle h4 {
+        font-size: 20px;
+        letter-spacing: 1.25px;
+    }
+}
+

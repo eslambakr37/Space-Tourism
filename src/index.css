@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
+:root {
+  --background-color: #0B0D17;
+  --main-color: #D0D6F9;
+  --seconed-color: #FFF;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  color: var(--seconed-color);
+  font-family: 'Barlow';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--seconed-color);
+  font-family: 'Bellefair';
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 56px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+h5 {
+  color: var(--main-color);
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  letter-spacing: 4.725px;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.Subheading-1 {
+  color: #FFF;
+  font-family: Bellefair !important;
+  font-size: 28px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  text-transform: uppercase;
+  margin: 0 !important;
+}
+
+.Subheading-2 {
+  color: #D0D6F9 !important;
+  font-family: Barlow Condensed !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  letter-spacing: 2.362px !important;
+  text-transform: uppercase;
+  margin: 0 !important;
+  margin-bottom: 12px !important;
+}
+
+.Nav-text {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.numbering {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  opacity: 0.25;
+  margin-right: 28px;
+}
+
+@media screen and (max-width:768px) {
+  .numbering {
+    font-size: 20px;
+    letter-spacing: 3.375px;
+    margin-right: 19px;
+  }
+
+  .Subheading-2 {
+    width: 216px;
+  }
+
+  .Subheading-1 {
+    margin-top: 12px !important;
+  }
+}
+
+@media screen and (max-width:375px) {
+
+  /* body{
+    overflow-x: hidden;
+  } */
+  .numbering {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    margin-right: 18px;
+  }
+
+  .Subheading-1 {
+    margin-top: 12px !important;
+  }
+}
