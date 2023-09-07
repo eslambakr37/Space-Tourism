@@ -36,7 +36,7 @@ this screenshot shows the view of the Technology page on screen size 375px.
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://space-tourism-phi-taupe.vercel.app/home)
+- Live Site URL: (https://space-tourism-phi-taupe.vercel.app/home)
 
 ## My process
 
