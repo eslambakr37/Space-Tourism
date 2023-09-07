@@ -25,7 +25,10 @@ Users should be able to:
 
 ![](./screenshots/screenshot_1.jpeg) this screenshot shows the view of the Home page on screen size 1440px.
 ![](./screenshots/screenshot_2.jpeg) this screenshot shows the view of the Destination page on screen size 1360px.
-![](./screenshots/screenshot_3.jpeg) this screenshot shows the view of the Crew page on screen size 768px.
+![](./screenshots/screenshot_3.jpeg)
+
+this screenshot shows the view of the Crew page on screen size 768px.
+
 ![](./screenshots/screenshot_4.jpeg)
 
 this screenshot shows the view of the Technology page on screen size 375px.
